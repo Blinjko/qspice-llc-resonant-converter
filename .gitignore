@@ -1,0 +1,8 @@
+# Exclude copyrighted reference PDF
+LLC-paper.pdf
+
+# QSPICE simulation outputs & build intermediates
+*.qraw
+*.obj
+*.log
+*.map
