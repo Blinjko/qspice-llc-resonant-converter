@@ -58,10 +58,10 @@ Adapted from [robdunn4/QSpice](https://github.com/robdunn4/QSpice) (clocked at `
 | :---: | :---: |
 | ![Closed-loop schematic left](schematic-pic-left.png) | ![Closed-loop schematic right](schematic-pic-right.png) |
 
-### Open-Loop & Tank Reference
-| Open-Loop Half-Bridge LLC | Initial Tank AC Sweep Setup |
-| :---: | :---: |
-| ![Open-loop schematic](h-bridge-llc-working-open-loop.png) | ![LLC tank test](LLC-tank-test.png) |
+### Open-Loop
+| Open-Loop Half-Bridge LLC |
+| :---: | 
+| ![Open-loop schematic](h-bridge-llc-working-open-loop.png) |
 
 ### Closed-Loop Load-Step Transient (`40 Ω -> 20 Ω`)
 Regulates `80.0 V` across `75–125 V` (±25%) input variation. On the `2 A -> 4 A` load step, the adaptive PID holds the dip to **`~1.2 V` (`1.5%`)** with clean discrete `v_freq` steps and no ringing (matching Fig. 6 of the paper: `1.25 V` / `1.56%`):
